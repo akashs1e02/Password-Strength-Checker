@@ -1,15 +1,33 @@
 # Password Strength Checker
 
-A Python-based Password Strength Checker developed as part of the DecodeLabs Cyber Security Internship.
+## Overview
+This project was developed as part of the DecodeLabs Cyber Security Internship.
+
+The program analyzes a password and classifies it as Weak, Medium, or Strong based on:
+
+- Password length
+- Uppercase letters
+- Numbers
+- Special characters
+
+## Technologies Used
+- Python 3.12
+- VS Code
 
 ## Features
-
 - Checks password length
 - Detects uppercase letters
 - Detects numbers
-- Detects special characters
-- Classifies passwords as Weak, Medium, or Strong
+- Detects symbols
+- Displays password strength
 
-## Technology
+## Sample Passwords
 
-Python 3.12
+| Password | Strength |
+|-----------|----------|
+| hello | Weak |
+| Hello123 | Medium |
+| Hello@123 | Strong |
+
+## Author
+Akash
